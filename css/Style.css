@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    max-width: 90%;
+    margin-left: 5%;
+    background-image: url("/images/farm.jpg");
+    background-size: cover; /* Adjust the image size to cover the entire body */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: bottom right;
+}
+
+img{
+    float: left;
+    margin-right: 50px;
+}
+
+header > h2{
+    color: #dcb620;
+    text-shadow: 1px 1px 2px black;
+}
+
+p{
+    font-family: Arial, serif;
+    line-height:25px;
+    font-size: 1em;
+    color:midnightblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:deepskyblue;
+}
+
+a:hover{
+    color: red;
+}
+
+blockquote{
+    width: 50%;
+    font-size: 1.6em;
+    background: lightgray;
+    border-left: 3px solid #a52a2a;
+    padding: 30px;
+    margin: 80px 0 80px 25%;
+    font-style: italic;
+}
+
+.farmer{
+    color: blue;
+}
+
+.villagers{
+    color: red;
+}
+
+.good{
+    color: green;
+    text-transform: capitalize;
+}
+
+.bad{
+    color: red;
+    text-transform: capitalize;
+}
+
+th{
+    background: lightgray;
+}
+
+th:nth-child(2n){
+    background: white;
+}
+
+td{
+    background: lightgray;
+}
+
+td:nth-child(2n){
+    background: white;
+}
+
+body >p{
+    font-weight: bold;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+}
+
+
+
+
