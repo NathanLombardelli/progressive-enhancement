@@ -7,7 +7,7 @@
 body{
     max-width: 90%;
     margin-left: 5%;
-    background-image: url("/images/farm.jpg");
+    background-image: url("../images/farm.jpg");
     background-size: cover; /* Adjust the image size to cover the entire body */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: bottom right;
